@@ -69,4 +69,4 @@ class MultiClassDataAnalyze:
         self.density_plots()
 
 # Sample Usage
-MultiClassDataAnalyze("/home/utkarsh/PycharmProjects/Pikachu_ML/neuralnets/resources/iris.csv").execute()
+# MultiClassDataAnalyze("/home/utkarsh/PycharmProjects/Pikachu_ML/neuralnets/resources/iris.csv").execute()
