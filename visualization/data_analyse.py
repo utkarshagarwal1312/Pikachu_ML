@@ -20,7 +20,7 @@ LINE_SIZE = 90
 class MultiClassDataAnalyze:
     # Data Visualization for Multi Class Classification
     # Features : Data Description, Head, Dimensions, Feature Histogram Plot, Feature Density Plot
-    # Assumptions : Class Feature in CSV is labeled as Outcome
+    # Assumptions : Class Feature in CSV is labeled as Outcome, Column names are Camel Cased non space separated
     def __init__(self, csv_path):
         try:
             self.df = pd.read_csv(csv_path)
@@ -69,4 +69,4 @@ class MultiClassDataAnalyze:
         self.density_plots()
 
 # Sample Usage
-# MultiClassDataAnalyze("path/to/csv").execute()
+MultiClassDataAnalyze("/home/utkarsh/PycharmProjects/Pikachu_ML/neuralnets/resources/iris.csv").execute()
